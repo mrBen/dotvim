@@ -5,8 +5,14 @@
 	path = pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "pack/plugins/start/nord-vim"]
-	path = pack/plugins/start/nord-vim
+	path = pack/themes/opt/nord-vim
 	url = https://github.com/arcticicestudio/nord-vim.git
 [submodule "pack/plugins/start/ale"]
 	path = pack/plugins/start/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "pack/themes/opt/gruvbox"]
+	path = pack/themes/opt/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "pack/themes/opt/dracula"]
+	path = pack/themes/opt/dracula
+	url = https://github.com/dracula/vim.git
