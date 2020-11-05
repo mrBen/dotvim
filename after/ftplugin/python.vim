@@ -11,4 +11,7 @@ set expandtab=4
 set autoindent
 set smartindent
 
-set colorcolumn=80
+setlocal colorcolumn=80
+
+setlocal path=.,**
+setlocal wildignore=*.pyc
