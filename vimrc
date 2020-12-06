@@ -22,10 +22,6 @@ noremap <Up> <nop>
 noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
-noremap! <Up> <nop>
-noremap! <Down> <nop>
-noremap! <Left> <nop>
-noremap! <Right> <nop>
 
 autocmd BufWritePre * %s/\s\+$//e
 
@@ -33,6 +29,9 @@ autocmd BufWritePre * %s/\s\+$//e
 let g:airline_powerline_fonts = 1
 
 " Theme
+set t_8f=[38;2;%lu;%lu;%lum
+set t_8b=[48;2;%lu;%lu;%lum
+set termguicolors
 packadd! nord
 let g:nord_underline = 1
 colorscheme nord
